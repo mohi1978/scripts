@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Color bash style"
+
+echo -e "\e[31mRed Text\e[0m"
+echo -e "\e[40mBlack Background\e[0m"
+echo -e "\e[41mRed Background\e[0m"
+echo -e "\e[42mGreen Background\e[0m"
+echo -e "\e[43mBrown Background\e[0m"
+echo -e "\e[44mBlue Background\e[0m"
+echo -e "\e[45mPurple Background\e[0m"
+echo -e "\e[46mCyan Background\e[0m"
+echo -e "\e[47mLight Gray Background\e[0m"
+
+echo ""
+echo -e "\e[31mRed Text\e[0m"
+echo -e "\e[30mBlack Text\e[0m"
+echo -e "\e[31mRed Text\e[0m"
+echo -e "\e[32mGreen Text\e[0m"
+echo -e "\e[33mBrown Text\e[0m"
+echo -e "\e[34mBlue Text\e[0m"
+echo -e "\e[35mPurple Text\e[0m"
+echo -e "\e[36mCyan Text\e[0m"
+echo -e "\e[37mLight Text\e[0m"
+
+echo ""
+echo -e "\e[1mBold Text\e[0m"
+echo -e "\e[3mNormal Text\e[0m"
+echo -e "\e[4mUnderline Characters\e[0m"
+echo -e "\e[5mBlinking Characters\e[0m"
+echo -e "\e[7mReverse Video Characters\e[0m"
